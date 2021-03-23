@@ -24,6 +24,11 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
+  <style>
+    small {
+        font-weight: bolder;
+    }
+</style>
   <link href="css/simple-sidebar.css" rel="stylesheet">
   <link rel="stylesheet" href="../styles/style.css">
   <script src="/cdn.jsdelivr.net/npm/sweetalert2@10"></script>
