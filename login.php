@@ -5,7 +5,10 @@ include "includes/db.inc.php";
     */
 session_start();
 $_SESSION['token'] = bin2hex(random_bytes(32));
-
+if(isset($_SESSION['user_name']))
+{
+    header("location: admin/index.php");
+}
 ?>
 
 
