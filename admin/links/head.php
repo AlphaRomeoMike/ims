@@ -31,6 +31,8 @@
 </style>
   <link href="css/simple-sidebar.css" rel="stylesheet">
   <link rel="stylesheet" href="../styles/style.css">
-  <script src="/cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="vendor/sweetalert2/sweetalert2.all.min.js"></script>
 
 </head>
+
+<body>
