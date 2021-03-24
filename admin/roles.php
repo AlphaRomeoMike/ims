@@ -12,7 +12,6 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 ?>
-
 <!-- TITLE -->
 <div class="title">
     <div class="display-3 text-center">IMS Role Creation</div>
@@ -62,6 +61,7 @@ if (!isset($_SESSION['user_id'])) {
             <div class="card-footer">
                 <input type="submit" value="Insert Role" name="role_insert" class="btn btn-outline-primary mr-3">
                 <input type="reset" value="Reset" class="btn btn-outline-danger mr-3">
+                <a href="role_management.php" class="btn btn-outline-dark">Role Management</a>
             </div>
         </form>
 
